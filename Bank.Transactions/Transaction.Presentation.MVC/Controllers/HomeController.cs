@@ -25,7 +25,7 @@ namespace Transaction.Presentation.MVC.Controllers
         {
             ft.DeleteAllTransaction();
             List<et.Transaction> lstTransaction = ft.ListarDadosTransaction();
-            return View(lstTransaction);
+            return View("Home", lstTransaction);
         }
 
         [HttpPost]
