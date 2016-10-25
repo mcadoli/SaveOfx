@@ -179,7 +179,6 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="App_Data\OFX\extrato_ofx_simples.ofx" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-datepicker-regional.js" />
@@ -236,6 +235,7 @@
   <ItemGroup>
     <Folder Include="App_Data\LOG_OFX\" />
     <Folder Include="App_Data\LOG_XML\" />
+    <Folder Include="App_Data\OFX\" />
     <Folder Include="App_Data\XML\" />
   </ItemGroup>
   <ItemGroup>
