@@ -1,9 +1,0 @@
-C:\Users\Marcela\Documents\GitHub\SaveOfx\Bank.Transactions\Transactions.Entities\bin\Debug\Transactions.Entities.dll.config
-C:\Users\Marcela\Documents\GitHub\SaveOfx\Bank.Transactions\Transactions.Entities\bin\Debug\Transactions.Entities.dll
-C:\Users\Marcela\Documents\GitHub\SaveOfx\Bank.Transactions\Transactions.Entities\bin\Debug\Transactions.Entities.pdb
-C:\Users\Marcela\Documents\GitHub\SaveOfx\Bank.Transactions\Transactions.Entities\bin\Debug\EntityFramework.dll
-C:\Users\Marcela\Documents\GitHub\SaveOfx\Bank.Transactions\Transactions.Entities\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Marcela\Documents\GitHub\SaveOfx\Bank.Transactions\Transactions.Entities\bin\Debug\EntityFramework.xml
-C:\Users\Marcela\Documents\GitHub\SaveOfx\Bank.Transactions\Transactions.Entities\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Marcela\Documents\GitHub\SaveOfx\Bank.Transactions\Transactions.Entities\obj\Debug\Transactions.Entities.dll
-C:\Users\Marcela\Documents\GitHub\SaveOfx\Bank.Transactions\Transactions.Entities\obj\Debug\Transactions.Entities.pdb
