@@ -30,7 +30,7 @@ namespace Transactions.Process
                     string dataFormatada = data.Substring(0, 4) + "-" + data.Substring(4, 2) + "-" + data.Substring(6, 2) + " " + data.Substring(8, 2) + ":" + data.Substring(10, 2);
                     transaction.DataPost = Convert.ToDateTime(dataFormatada);
                 }
-                transaction.TransactionId = DateTime.Now.Day.ToString() + DateTime.Now.Month.ToString() + DateTime.Now.Year.ToString() + DateTime.Now.Hour.ToString() + DateTime.Now.Minute.ToString() + DateTime.Now.Second.ToString() + DateTime.Now.Millisecond.ToString() + c.ToString();
+                transaction.TransactionId = item.DTPOSTED + item.MEMO + item.TRNAMT + c.ToString();
                 transaction.Memo = item.MEMO;
                 if (!String.IsNullOrWhiteSpace(item.TRNAMT))
                     transaction.Valor = Util.FormatarValorMonetario(item.TRNAMT);

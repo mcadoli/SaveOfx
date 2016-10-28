@@ -12,6 +12,6 @@ function RealizarUpload(idInput, regex, url, maxTamArquivo) {
         done: function (e, data) {
             
         }
-    })
+    }) 
 }
        

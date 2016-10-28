@@ -39,9 +39,7 @@ namespace Transaction.Presentation.MVC.Controllers
                 string savedFileName = Path.Combine((Util.Diretorio("DiretorioOfx")), hpf.FileName);
 
                 if (System.IO.File.Exists(savedFileName))
-                    System.IO.File.Delete(savedFileName);
-
-                Session.Add("CaminhoArquivo", savedFileName);
+                    System.IO.File.Delete(savedFileName); 
                 hpf.SaveAs(savedFileName);
 
                 ft.SalvarDadosTransaction();
